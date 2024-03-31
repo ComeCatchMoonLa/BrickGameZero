@@ -49,7 +49,7 @@ void setPos(int x, short y)
 
 bool outOfBounds(int x, int y)
 {
-	return x < 0 || x > SCREEN_WIDTH - 1 || y < 0 || y > SCREEN_HEIGHT;
+	return x < 0 || x > SCREEN_WIDTH - 1 || y < 0 || y > SCREEN_HEIGHT - 1;
 }
 
 bool isSnakeBody(int x, int y)
