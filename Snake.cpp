@@ -115,7 +115,7 @@ void updateLogic()
 	// handle input
 	if (_kbhit())
 	{
-		int c = (KeyBorad)_getch();
+		KeyBorad c = (KeyBorad)_getch();
 		switch (c)
 		{
 			case KeyBorad::W:
